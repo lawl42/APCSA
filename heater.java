@@ -2,8 +2,8 @@
 /**
  * Write a description of class heater here.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Lawrece
+ * @version 1.0
  */
 public class heater
 {
