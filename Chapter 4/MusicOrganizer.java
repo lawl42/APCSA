@@ -5,7 +5,8 @@ import java.util.ArrayList;
  * Individual tracks may be played.
  * 
  * @author David J. Barnes and Michael Kölling
- * @version 2016.02.29
+ * @editor Lawrence
+ * @version 2018.01.27
  */
 public class MusicOrganizer
 {
