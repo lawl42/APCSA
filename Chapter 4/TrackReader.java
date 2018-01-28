@@ -14,7 +14,8 @@ import java.util.stream.Collectors;
  * and track name, separated by a dash. For example: TheBeatles-HereComesTheSun.mp3
  * 
  * @author David J. Barnes and Michael Kölling
- * @version 2016.02.29
+ * @editor Lawrence
+ * @version 2018.01.27
  */
 public class TrackReader
 {
