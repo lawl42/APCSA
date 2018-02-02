@@ -2,8 +2,8 @@ import java.util.*;
 /**
  * Store details of club memberships.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Lawrence
+ * @version 1/30/18
  */
 public class Club
 {
