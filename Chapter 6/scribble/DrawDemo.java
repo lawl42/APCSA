@@ -6,7 +6,8 @@ import java.util.Random;
  * Pen class to create various drawings.
  *
  * @author Michael Kölling and David J. Barnes
- * @version 2016.02.29
+ * @editor Lawrence
+ * @version 2/11/18
  */
 
 public class DrawDemo
