@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 public class characterMovement1 : MonoBehaviour {
@@ -23,6 +23,7 @@ public class characterMovement1 : MonoBehaviour {
 	private bool pointCheck = false;
 	//if player is holding item
 	private bool pickCheck = true;
+	private int playerHealth =100;
 	//private bool wCheck = false;
 	//private bool sCheck = false;
 	//private bool eCheck = false;
@@ -69,6 +70,14 @@ public class characterMovement1 : MonoBehaviour {
 			pickCheck = true;
 			instantiatedObj.SetActive(true);
 			pointCount++;
+		}
+	}
+	void hurtPlayer(int healthDec)
+	{
+		playerHealth = playerHealth - healthDec;
+		if(playerHealth <= 0)
+		{
+			Debug.Log("ded");
 		}
 	}
 	}
